@@ -427,7 +427,7 @@ const Index = () => {
             </nav>
 
             {/* Language Switcher */}
-            {/* Language Switcher */}
+
             <div className="relative inline-block text-left">
               <button
                 type="button"
@@ -606,7 +606,7 @@ const Index = () => {
                   </CardContent>
                 </Card> */}
                 {/* Contact Form */}
-                <Card>
+                <Card className="border-none shadow-none">
                   <CardHeader>
                     <CardTitle>{t.contactTitle}</CardTitle>
                   </CardHeader>
@@ -719,7 +719,7 @@ const Index = () => {
                 </Card>
 
                 {/* Contact Info */}
-                <div className="space-y-8">
+                <div className="space-y-8 mt-9">
                   <div className="space-y-6">
                     <div className="flex items-center space-x-4">
                       <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
